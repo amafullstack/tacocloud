@@ -7,6 +7,9 @@
     <groupId>sia</groupId>
     <artifactId>taco-cloud-parent</artifactId>
     <version>0.0.6-SNAPSHOT</version>
+    <modules>
+        <module>tacos</module>
+    </modules>
     <packaging>pom</packaging>
 
     <parent>
