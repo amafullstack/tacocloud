@@ -7,11 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tacos" />
+        <module name="tacocloud-data" />
+        <module name="tacocloud-api" />
+        <module name="tacocloud-domain" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tacocloud-api" options="-parameters" />
+      <module name="tacocloud-data" options="-parameters" />
+      <module name="tacocloud-domain" options="-parameters" />
       <module name="tacos" options="-parameters" />
     </option>
   </component>
